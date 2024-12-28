@@ -1,0 +1,44 @@
+/* Apply Flexbox to body */
+body {
+    display: flex;
+    flex-direction: column; /* Stack header, main, and footer vertically */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Apply Flexbox to main */
+main {
+    display: flex;
+    flex-direction: row; /* Place article and aside side by side */
+    flex: auto; /* Allow main to resize automatically */
+}
+
+/* Set proportions for article and aside */
+article {
+    flex: 2; /* Takes up 2/3 of the space */
+    overflow-y: auto; /* Scrollable vertically */
+}
+
+aside {
+    flex: 1; /* Takes up 1/3 of the space */
+    overflow-y: auto; /* Scrollable vertically */
+}
+
+/* Ensure header and footer are visible */
+header, footer {
+    background-color: #f8f9fa; /* Optional: Add a background color */
+    padding: 1em;
+    text-align: center;
+}
+
+/* Styling for main content areas */
+article {
+    padding: 1em;
+    background-color: #ffffff;
+}
+
+aside {
+    padding: 1em;
+    background-color: #f1f1f1;
+}
