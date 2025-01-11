@@ -1,0 +1,103 @@
+
+body{
+    background-image: url('http://surl.li/rmlmpt');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#hd{
+    margin-left :350px;
+    margin-top: 20px;
+    padding-top: 50px;
+    text-align:left;
+    border-radius: 5px;
+    transition: color 0.3s;
+    font-style: oblique ;
+    font-size: 40px;
+}
+
+#btn1{
+
+    float: right ;
+    margin-right: 20px;
+    padding: 5px;
+    margin-bottom:20px;
+    font-size: 14px;
+    background: linear-gradient(45deg, #ff0066, #11d3d3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.3s, background 0.3s;
+    
+}
+
+#btn1:hover {
+    background: linear-gradient(45deg, #ff66ccd2, #ff0066b7);
+    color: #333;
+}
+
+#btn2{
+    float: right ;
+    padding: 5px;
+    margin-right: 20px;
+    margin-bottom:20px;
+    font-size: 14px;
+    background: linear-gradient(45deg, #ff0066a6, #11d3d3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.3s, background 0.3s;
+}
+
+#btn2:hover {
+    background: linear-gradient(45deg, #ff66cc, #ff0066);
+    color: #333;
+}
+#btn3{
+    float: right ;
+    padding: 5px;
+    margin-bottom:20px;
+    margin-right: 40px;
+    font-size: 14px;
+    background: linear-gradient(45deg, #ff0066, #11d3d3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.3s, background 0.3s;
+}
+
+#btn3:hover {
+    background: linear-gradient(45deg, #ff66cc, #ff0066);
+    color: #333;
+}
+
+#btn4{
+
+    margin-bottom:20px;
+    margin-right: 20px;
+    font-size: 14px;
+    background: linear-gradient(45deg, #ff0066, #11d3d3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.3s, background 0.3s;
+    padding: 5px
+}
+
+#btn4:hover {
+    background: linear-gradient(45deg, #ff66cc, #ff0066bd);
+    color: #333;
+}
+
+.ct{
+    text-align: center;
+    margin-top: 255px;
+    font-size: 30px;
+    margin-right: 80px;
+
+}
+#p{
+    font-style: oblique;
+}
