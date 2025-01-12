@@ -4,18 +4,24 @@ body{
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 260vh;
 }
 
 #hd{
-    margin-left :350px;
+    font-family: "Agu Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 599;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+    margin-right :399px;
     margin-top: 20px;
     padding-top: 50px;
-    text-align:left;
-    border-radius: 5px;
+    text-align:center;
     transition: color 0.3s;
     font-style: oblique ;
-    font-size: 40px;
+    font-size: 60px;
+    margin-top: 100px;
 }
 
 #btn1{
@@ -94,10 +100,172 @@ body{
 .ct{
     text-align: center;
     margin-top: 255px;
-    font-size: 30px;
+    font-size: 25px;
     margin-right: 80px;
+    transition: transform 0.5s;
 
 }
+
+/* .ct:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #0fccadc5, #1082ced5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
 #p{
     font-style: oblique;
+    font-size: 25px;
 }
+.b2{
+    text-align: center;
+    font-size: 30px;
+    transition: transform 0.5s;
+}
+
+.b2:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #0fccadc5, #0351c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    transition: transform 0.5s;
+    border-radius: 7%;
+    display: flex;
+}
+
+#p1{
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: 30px;
+    display: flex;
+}
+#p2{
+    font-size: 17px;
+    margin-left: 200px;
+    margin-top: 30px;
+
+}
+
+img:hover {
+    transform: scale(1.1); 
+}
+
+#p1:hover, .po:hover {
+  
+    background: linear-gradient(45deg, #0fccadc5, #0351c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+#p2:hover, .po:hover {
+    
+     background: linear-gradient(45deg, #0fccadc5, #0351c5);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+.container{
+    display: flex;
+    
+}
+ 
+#vid, #vid2{
+    margin-left: 50px;
+    
+}
+
+#vid:hover, #vid2:hover {
+    
+    background: linear-gradient(45deg, #0fccadc5, #0351c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#kt{
+    text-align: center;
+    transition: transform 0.5s;
+    margin-top: 130px;
+}
+
+#kt:hover{
+
+    background: linear-gradient(45deg, #0fccadc5, #0351c5);
+    -webkit-background-clip: text;
+    transform: scale(1.1);
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+/* Contact Section Styling */
+.contact-section {
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(5, 91, 161, 0.671);
+    max-width: 600px;
+    border-radius: 10px;
+    margin-left: 570px;
+    margin-top: 130px;
+    transition: transform 0.5s;
+}
+
+.contact-section:hover {
+    transform: scale(1.05);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Input and Textarea Styling with Underline */
+input, textarea {
+    border: none;                
+    border-bottom: 2px solid #007BFF;  
+    outline: none;                
+    padding: 10px;
+    font-size: 16px;
+    background: transparent;
+    margin-bottom: 20px;          
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+input:focus, textarea:focus {
+    border-bottom: 2px solid #0056b3;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #007bffe3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.yt{
+    margin-bottom: 3000px;
+}
+
+.material-symbols-outlined{
+    font-size: 20px;
+    margin-left: 500px;
+}
+
